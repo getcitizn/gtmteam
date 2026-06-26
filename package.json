@@ -1,0 +1,25 @@
+{
+  "name": "gtmteam",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p .",
+    "pipeline": "tsx src/cli.ts run",
+    "review": "tsx src/cli.ts review",
+    "approve": "tsx src/cli.ts approve",
+    "reject": "tsx src/cli.ts reject",
+    "publish": "tsx src/cli.ts publish",
+    "analyze": "tsx src/cli.ts analyze",
+    "coach": "tsx src/cli.ts coach"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "@types/node": "^22.7.0"
+  }
+}
