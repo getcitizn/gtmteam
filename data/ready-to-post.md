@@ -1,5 +1,5 @@
 # Ready to Post
 
-Generated 2026-11-16T23:40:41.340Z
+Generated 2026-11-17T06:49:50.122Z
 
 _No approved drafts right now. Run `npm run review` to triage._
